@@ -1,0 +1,55 @@
+  $myblue: #1976d2;
+  $mywhite: #fff;
+  $myred: #B22222;
+
+.container-animated-bg{
+    padding: 20px;
+    display: flex;
+}
+
+.h1-play-animation{
+    display: flexbox;
+}
+
+.div-ul{
+    text-align: left;
+}
+
+.body > div{
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.animate-me {
+    animation: 4s infinite bgcolorchange;
+    width: stretch;
+    height: stretch;
+    background-color: $myred;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius:10px;
+    
+  }
+  
+  @keyframes example {
+    from { background-color: $myred; }
+    to { background-color: yellow; }
+  }
+
+
+  .parent{
+      border: 1px solid gray;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  h2{
+      text-align: center;
+      color: $myblue;
+  }
+
+  li{
+      list-style: circle;
+  }

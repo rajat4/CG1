@@ -1,0 +1,32 @@
+$myblue: #1976d2;
+$mywhite: #fff;
+$myred: #B22222;
+
+.child{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    text-align:center;
+    color: $myblue;
+}
+
+button {
+    margin-left: 5px;
+    color: $mywhite;
+    background-color: $myblue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.btn-add{
+    padding: 5px;
+}
+
